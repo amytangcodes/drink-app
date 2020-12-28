@@ -30,8 +30,6 @@ class Home extends Component {
 
   getDrinks() {
     this.fetch("/api/drinks").then((drinks) => {
-      console.log({ drinks });
-
       if (drinks.length) {
         this.setState({ drinks: drinks });
         this.getDrink(drinks[0].id);
