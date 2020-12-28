@@ -5,7 +5,8 @@
 This repo is following this tutorial: [A Rock Solid, Modern Web Stack—Rails 5 API + ActiveAdmin + Create React App on Heroku](https://blog.heroku.com/a-rock-solid-modern-web-stack)
 
 Check out the demo [here](https://making-drinks.herokuapp.com)
-![Alt text](/screenshot.png?raw=true "Making Drinks")
+
+![Alt text](/screenshot.png "Making Drinks")
 
 ### Built With
 
