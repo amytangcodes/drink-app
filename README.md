@@ -1,13 +1,11 @@
-# README
+# Drink List
 
 ## Overview
 
-Following from here: [Rock Solid Modern Webstack](https://blog.heroku.com/a-rock-solid-modern-web-stack)
+This repo is following this tutorial: [A Rock Solid, Modern Web Stack—Rails 5 API + ActiveAdmin + Create React App on Heroku](https://blog.heroku.com/a-rock-solid-modern-web-stack)
 
 Check out the demo [here](https://making-drinks.herokuapp.com)
-
-- Ruby version
-  ruby 2.7.0
+![Alt text](/screenshot.png?raw=true "Making Drinks")
 
 ### Built With
 
