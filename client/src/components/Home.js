@@ -5,10 +5,9 @@ import {
   Segment,
   Button,
   Icon,
-  Dimmer,
-  Loader,
   Divider,
 } from "semantic-ui-react";
+import LoaderComponent from "./LoaderComponent";
 
 class Home extends Component {
   constructor() {
@@ -50,7 +49,7 @@ class Home extends Component {
 
   render() {
     let { drinks, drink } = this.state;
-    console.log(drinks);
+
     return drinks ? (
       <Container text>
         <Header as="h2" icon textAlign="center" color="teal">
@@ -98,11 +97,7 @@ class Home extends Component {
         )}
       </Container>
     ) : (
-      <Container text>
-        <Dimmer active inverted>
-          <Loader content="Loading" />
-        </Dimmer>
-      </Container>
+      <LoaderComponent />
     );
   }
 }
