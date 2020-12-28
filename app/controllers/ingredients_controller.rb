@@ -1,3 +1,2 @@
 class IngredientsController < ApiController
-
 end
