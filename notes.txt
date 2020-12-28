@@ -1,2 +1,0 @@
-Install to front-end:
-$ yarn --cwd client add <whatever-you-need-to-install>

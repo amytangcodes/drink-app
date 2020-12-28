@@ -19,12 +19,15 @@ Check out the demo [here](https://making-drinks.herokuapp.com)
 To clone and run this application, in your command line:
 
 ```bash
-# Clone this repository
+# Getting Started
 $ git clone git@github.com:amytangcodes/drink-app.git
-
-# Install dependencies
+$ cd drink-app
+$ bundle
+$ cd client
 $ npm install
-$ bundle install
+$ cd ..
+$ rails db:migrate
+$ rails db:seed
 
 # Run the app
 $ rake start
