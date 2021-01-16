@@ -8,15 +8,11 @@ Check out the demo [here](https://making-drinks.herokuapp.com)
 
 ![Alt text](/screenshot.png "Making Drinks")
 
-### Built With
+## Built With
 
 - [Ruby on Rails](https://rubyonrails.org/)
 - [Create-React-App](https://github.com/facebook/create-react-app)
 - [Semantic-UI](https://semantic-ui.com/)
-
-## How To Use
-
-To clone and run this application, in your command line:
 
 ## Getting Started
 
@@ -27,8 +23,7 @@ $ bundle
 $ cd client
 $ npm install
 $ cd ..
-$ rails db:migrate
-$ rails db:seed
+$ rails db:migrate db:seed
 ```
 
 ## Run the app
@@ -36,3 +31,8 @@ $ rails db:seed
 ```bash
 $ rake start
 ```
+
+## Contact
+
+- Site [amytangcodes.com](https://www.amytangcodes.com/)
+- GitHub [@amytangcodes](https://{github.com/amytangcodes})
